@@ -1,0 +1,37 @@
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>907英语寒假作业</title>
+    <style>
+        body {
+            background-image: url('测试.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            margin: 0; /* 移除默认边距 */
+            height: 100vh; /* 确保body占满整个视口高度 */
+            display: flex; /* 启用Flexbox布局 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+        }
+        .video-container {
+            width: 80%; /* 容器宽度为视口的80% */
+            margin: 0 auto; /* 左右外边距自动，实现水平居中 */
+        }
+        .video-container video {
+            width: 100%; /* 视频宽度为容器的100% */
+            height: auto; /* 高度自动调整 */
+        }
+    </style>
+</head>
+<body>
+<div class="video-container">
+    <video controls>
+        <source src="/workspace/测试.mp4" type="video/mp4">
+        <!-- 如果浏览器不支持 video 标签，显示以下文本 -->
+        您的浏览器不支持 video 标签。
+    </video>
+</div>
+</body>
+</html>

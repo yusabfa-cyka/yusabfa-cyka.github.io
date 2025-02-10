@@ -1,0 +1,18 @@
+{
+  "name": "my-package",
+  "version": "1.0.0", 
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx http-server --port=3000",
+    "build": "babel src -d lib",
+    "test": "测试"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "http-server": "^0.11.1"
+  }
+}
+
